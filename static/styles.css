@@ -1,0 +1,128 @@
+body {
+  margin: 0;
+  height: 100vh;
+  padding: 1rem;
+  color: rgb(143, 0, 0);
+  background-color: rgba(0, 128, 0, 0.584);
+}
+
+.logo {
+  width: 200px;
+  height: auto;
+}
+
+h3 {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.remove-gift {
+  background-color: rgb(128, 0, 0);
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 0.8rem;
+}
+
+input[type="submit"] {
+  background-color: rgb(128, 26, 0);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: rgb(153, 51, 0);
+}
+
+input[type="text"] {
+  padding: 10px;
+  background-color: #246d00;
+  border: 1px solid #308c02;
+  border-radius: 5px;
+}
+
+input[type="text"]:active,
+input[type="text"]:focus {
+  background-color: rgb(153, 0, 0);
+}
+
+.content {
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.gifts {
+  margin-top: 20px;
+  text-align: left;
+  max-height: 300px;
+  overflow-y: auto;
+  background: green;
+  flex-direction: column;
+  padding: 10px;
+  border: 1px solid rgb(244, 96, 96);
+  border-radius: 5px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+.gift-form {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  background-color: rgba(0, 100, 0, 0.663);
+  padding: 10px;
+  border-radius: 5px;
+  border-color: rgb(244, 96, 96);
+  border-style: solid;
+  border-width: 1px;
+}
+
+.gift-item {
+  padding: 5px;
+  border: 2px solid rgb(200, 50, 50);
+  border-radius: 5px;
+  margin: 5px;
+  background-color: rgba(255, 255, 255, 0.2);
+  flex-direction: column;
+  align-items: center;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+.mountains-of-christmas-regular {
+  font-family: "Mountains of Christmas", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.mountains-of-christmas-bold {
+  font-family: "Mountains of Christmas", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.sekuya-regular {
+  font-family: "Sekuya", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
