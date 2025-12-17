@@ -1,10 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <script src="./main.js" defer></script>
+    <link rel="stylesheet" href="./styles.css" preload>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sekuya&family=Mountains+of+Christmas:wght@400;700&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
-$END$
+    <div class="content">
+        <h1 class="mountains-of-christmas-bold">genr234's Gift Tracker!</h1>
+        <img src="https://haxmas.hackclub.com/haxmas-logo.png" class="logo">
+        <p class="sekuya-regular">Tracking gifts since 2025</p>
+        <form id="giftForm" class="gift-form">
+            <label for="name" class="mountains-of-christmas-regular">Name:</label>
+            <input id="name" type="text" name="name" required>
+            <br>
+            <label for="gift" class="mountains-of-christmas-regular">Gift: </label>
+            <input id="gift" type="text" name="gift" required>
+            <br>
+            <input type="submit" value="Create!" class="mountains-of-christmas-regular">
+        </form>
+        <div id="gifts" class="gifts"></div>
+    </div>
 </body>
+
 </html>
